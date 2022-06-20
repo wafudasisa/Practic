@@ -1,0 +1,768 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+body{
+    width: 1366px;
+    max-width: 1366px;
+    height: auto;
+}
+
+.navigation {
+    height: 1200px;
+    max-width: 1200px;
+    height: 48px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.header_logo {
+    margin-left: 20px;
+}
+
+.header_menu {
+    margin-right: 20px;
+}
+
+.blogAfri{
+    margin-top: 42px;
+    font-family: Gilroy-SemiBold;
+    font-size: calc(35px + 9 * ((100vw - 320px) / (1920 - 320)));
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    height: 250px;
+    background-image: url(img/img_blog/Mask\ Group.png);
+}
+
+.blogAfriText{
+    max-width: 780px;
+    height: 60px;
+    font-family: Gilroy-Regular;
+    font-size: calc(10px + 10 * ((100vw) / (1920 - 320)));
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.4);  
+}
+
+.blogAfriName{
+    margin-top: 50px;
+}
+
+.blogAfriText{
+    margin-top: 16px;
+}
+
+.content{
+    margin: 0 auto;
+    max-width: 924px;
+    max-height: 1600px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap-reverse;
+    margin-top: 57px;
+}
+
+@media screen and (max-width: 839px){
+    .content{
+        margin: 0 auto;
+        max-width: 924px;
+        max-height: 1600px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+        margin-top: 57px;
+    }
+}
+
+
+.contentText{
+    max-width: 314px;
+    height: auto;
+}
+
+.contentInput{
+    max-width: 540px;
+    width: 100%;
+    height: 800px;
+    background: #FFFFFF;
+    box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 920px){
+    .contentInput{
+        max-width: 540px;
+        height: 800px;
+        background: #FFFFFF;
+        box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }    
+}
+
+
+.ContactUs_Group{
+    max-width: 300px;
+    /* max-width:calc(150px + 150 * ((100vw - 320px) / (1920 - 320))); */
+    max-height: 181px;
+    margin-top: 63px;
+}
+
+.contactTextName{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-top: 40px;
+}
+.contactTextName2{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-top: 71px;
+}
+
+.contactTextText{
+    max-width: 299px;
+    max-height: auto;
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-left: 16px;
+}
+.contactTextText2{
+    max-width: 299px;
+    max-height: 53px;
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.6;
+    margin-left: 0;
+    margin-top: 24px;
+}
+
+.contentTextName4321, .contentTextName1234,.language,.email{
+    display: flex;
+    margin-top: 16px;
+}
+.ic_phone,.language,.email{
+    max-width: 24px;
+    height: 24px;
+    opacity: 0.6;
+
+}
+
+.SEND,.YourName,.Full,.Email2,.Message,.MessageInp,.btnSub{
+    margin: 0 auto;
+}
+
+.SEND{
+    max-width: auto;
+    height: 30px;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;    
+    margin-top: 56px;
+}
+
+
+.YourName{
+    max-width: 428px;
+    width: 100%;
+    height: 72px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.Full{
+    width: 77px;
+    height: 30px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 48px;
+}
+
+::-webkit-input-placeholder{
+    max-width: 101.12px;
+    height: 30px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.2;
+    padding-left: 42px;   
+}
+
+.Email2{
+    width: 42px;
+    height: 30px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+
+.Message{
+    width: 70px;
+    height: 30px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    opacity: 0.8;
+    margin-top: 32px;
+}
+
+.MessageInp{
+    max-width: 428px;
+    width: 100%;
+    height: 144px;
+    opacity: 0.4;
+    border: 1px solid #356EAD;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.btnSub{
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    max-width: 428px;
+    width: 100%;
+    height: 72px;
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    border: none;
+    margin-top: 72px;
+}
+
+@media screen and (max-width: 920px){
+    .btnSub{
+        font-family: Gilroy-SemiBold;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        max-width: 428px;
+        height: 72px;
+        background: #5A98D0;
+        box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+        border-radius: 10px;
+        border: none;
+        margin-top: 72px;
+    } 
+}
+
+.map{
+    max-width: 940px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 96px;
+}
+.map2{
+    max-width: 540px;
+    height: 480px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: none;   
+}
+.map3{
+    max-width: 320px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 96px;
+    display: none;   
+}
+
+@media screen and (max-width: 920px){
+    .map{
+        max-width: 540px;
+        height: 480px;
+        margin: 0 auto;
+        margin-top: 96px;
+        display: none;
+    }
+    .map2{
+        max-width: 780px;
+        height: 480px;
+        margin: 0 auto;
+        margin-top: 96px;
+        display: block;
+        display: flex;
+        justify-content: center;   
+    }
+}
+
+@media screen and (max-width: 784px){
+    .map2{
+        max-width: 480px;
+        height: 480px;
+        margin: 0 auto;
+        margin-top: 96px;
+        display: block;
+        display: flex;
+        justify-content: center;   
+    }
+}
+
+@media screen and (max-width: 490px){
+    .map2{
+        display: none;   
+    }
+    .map3{
+        max-width: 320px;
+        height: 280px;
+        margin: 0 auto;
+        margin-top: 96px;
+        display: block;   
+    }
+}
+
+
+/* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
+
+.footer{
+    max-width: 1270px;
+    height: auto;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    margin-top: 96px;
+    position: relative;
+}
+
+.Intersted{
+    max-width: 317px;
+    height: 92px;
+    font-family: Gilroy-SemiBold;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 91px;
+    padding-left: 213px;
+}
+
+.InterstedText{
+    max-width: 460px;
+    height: 80px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;   
+    padding-left: 213px;
+    padding-top: 32px;
+}
+
+.Let’sBTN{
+    position: absolute;
+    top: 320px;
+    right: 0px;
+    margin-right: 197px;
+    width: 220px;
+    height: 56px;    
+    background: #5A98D0;
+    border-radius: 10px;
+    border: none;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footerhr{
+    max-width: 1073px;
+    margin-top: 96px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+.footerContent{
+    display: flex;
+    max-width: 734px;
+    margin-left: 216px;
+}
+
+
+.Afrianska{
+    max-width: 300px;
+    max-height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 97px;
+
+}
+
+.AfrianskaName{
+    max-width: 300px;
+    max-width: auto;
+    display: flex;
+}
+
+.img_blog_logo{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.AfrianskaText{
+    max-width: 125px;
+    height: 46px;
+    font-family: Gilroy-SemiBold;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 16px;
+    
+}
+
+.A{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.Aa{
+    max-width: 19px;
+    height: 26px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 31px;  
+}
+
+.AaText{
+    max-width: 264px;
+    height: 48px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 31px;
+    margin-left: 16px;
+}
+
+.T{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;  
+
+}
+
+.Tt{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+}
+
+.TtText{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.E{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;
+}
+.Ee{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+}
+
+.EeText{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+    margin-left: 16px;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+.AboutUS{
+    max-width: 163px;
+    max-height: auto;
+    margin-left: 100px;
+}
+
+.AboutUSNameFT{
+    max-width: 94px;
+    height: 30px;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 96px; 
+}
+
+.AboutFT,.WhatFT,.ProjectFT,.HowFT{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.AboutFT{
+    margin-top: 32px;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+
+.FollowUs{
+    max-width: 163px;
+    max-height: auto;
+    margin-left: 77px;
+}
+
+.FollowUSFT{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 96px; 
+}
+
+.Instagram,.Facebook,.LinkedIn,.Youtube{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.Instagram{
+    margin-top: 32px;
+}
+
+.copycon{
+    max-width: 288px;
+    height: 26px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;    
+}
+
+@media screen and (max-width: 920px){
+    .footerContent{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        display: flex;
+        max-width: 734px;
+        margin: 0 auto;
+    }
+    .AboutUS{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    } 
+    .FollowUs{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    }
+    .Let’sBTN {
+        position: absolute;
+        top: 320px;
+        right: 30%;
+        margin-right: 0px;
+        width: 220px;
+        height: 56px;    
+        background: #5A98D0;
+        border-radius: 10px;
+        border: none;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+
+    .Intersted{
+        max-width: 317px;
+        height: 92px;
+        font-family: Gilroy-SemiBold;
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-top: 91px;
+        padding-left: 80px;
+    }
+    
+    .InterstedText{
+        max-width: 460px;
+        max-height: auto;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;   
+        padding-left: 80px;
+        padding-top: 32px;
+    }
+
+    .copycon {
+        max-width: 288px;
+        height: 26px;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin: 0 auto;
+        margin-top: 15PX;
+    }
+
+    .FollowUSFT{
+        max-width: auto;
+        height: auto;
+        font-family: Gilroy-SemiBold;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-top: 30px; 
+    }
+
+    .AboutUSNameFT {
+        max-width: 94px;
+        height: 30px;
+        font-family: Gilroy-SemiBold;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .AboutUS{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    } 
+    .FollowUs{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Intersted {
+        padding-left: 25px;
+        font-size: 28px;
+    }
+    .InterstedText {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+}

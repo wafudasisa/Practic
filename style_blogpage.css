@@ -1,0 +1,1039 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    background-color: white;
+}
+
+body{
+    width: 1366px;
+    max-width: 1366px;
+    height: auto;
+}
+
+.navigation {
+    height: 1200px;
+    max-width: 1200px;
+    height: 48px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    position: relative;
+}
+
+.header_logo {
+    margin-left: 20px;
+}
+
+.header_menu {
+    margin-right: 20px;
+}
+
+.blogAfri{
+    margin-top: 42px;
+    font-family: Gilroy-SemiBold;
+    font-size: calc(35px + 9 * ((100vw - 320px) / (1920 - 320)));
+    line-height: 74px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1366px;
+    height: 250px;
+    background-image: url(img/img_blog/Mask\ Group.png);
+}
+
+.blogAfriText{
+    max-width: 780px;
+    height: 60px;
+    font-family: Gilroy-Regular;
+    font-size: calc(10px + 10 * ((100vw) / (1920 - 320)));
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: rgba(255, 255, 255, 0.4);  
+}
+
+.blogAfriName{
+    margin-top: 50px;
+}
+
+.blogAfriText{
+    margin-top: 16px;
+}
+
+
+.search{
+    max-width: 940px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 56px;
+    position: relative;
+}
+
+@media screen and (max-width: 920px){
+    .search{
+        margin-top: 32px;
+    }
+}
+
+
+.inputSearch{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    background: #F4F4F4;
+    border: none;
+    border-radius: 10px;
+    font-family: Gilroy-Light;
+    font-size: 16px;
+    line-height: 19px;
+    color: #1F3F68;
+}
+
+.searchIMG{
+    position: absolute;
+    left: 24px;
+}
+
+.popular{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 56px;
+}
+.BlogName{
+    max-width: 93px;
+    height: 25px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+}
+
+@media screen and (max-width: 920px){
+    .BlogName{
+        margin: 0 auto;
+        font-size: 28px;
+    }
+    .popular{
+        margin-top: 24px;
+    } 
+}
+
+
+.slid1{
+    margin: 32px auto;
+    max-width: 940px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slid1IMG{
+    max-width: 540px;
+    height: 380px;
+}
+@media screen and (max-width: 920px){
+    .slid1{
+        background:linear-gradient(308.85deg, rgba(0, 0, 0, 0.4) -1.71%, rgba(21, 101, 192, 0.6) 74.54%),url(img/img_blog/Rectangle\ 5.png);
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+    }
+    .slid1IMG{
+        display: none;
+    }
+   
+}
+
+.slid1TextName{
+    max-width: 380px;
+    height: 116px;
+    font-family: 'Galien';
+    font-size: 48px;
+    line-height: 58px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;    
+}
+
+.slid1TextText{
+    position: absolute;
+    max-width: 380px;
+    height: 150px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: #000000;
+    opacity: 0.6;  
+    margin-top: 32px;  
+}
+
+@media screen and (max-width: 920px){
+    .slid1TextName{
+        max-width: 380px;
+        height: 116px;
+        font-family: 'Galien';
+        font-size: 48px;
+        line-height: 58px;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+ 
+    }
+    .slid1TextText{
+        position: absolute;
+        max-width: 380px;
+        height: 150px;
+        font-family: 'Gilroy';
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+        opacity: 0.6;  
+        margin-top: 32px;  
+    }
+}
+/* ---------------------------------------------------------------------------------------------------- */
+.slid1TextBottom{
+    max-width: 300px;
+    height: 52px;
+    margin-top: 212px;
+    position: relative;
+}
+
+.Samatha{
+    width: 122px;
+    height: 24px;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.May5{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 4px;
+}
+
+@media screen and (max-width: 920px){
+    #May51{
+        color: rgba(255, 255, 255, 0.4);
+
+    }
+    #Samatha1{
+        color: white;
+    }
+}
+
+.bookmarks{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 56px;
+}
+
+.share{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 1px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+.slidMore{
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 940px;
+    height: 479px;
+    display: flex;
+    justify-content: space-between;   
+    flex-wrap: wrap;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+.photo1{
+    max-width: 300px;
+    height: 200px;
+    background-image: url(img/img_blog/Rectangle\ 5\ \(1\).png);
+}
+
+.slidM1Name{
+    width: 298px;
+    height: 76px;
+    font-family: Galien-Bold;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+    margin-top: 16px;    
+}
+
+.slidM1Text{
+    position: absolute;
+    width: 297px;
+    height: 103px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 16px;
+}
+
+
+.slidM1TextBottom{
+    max-width: 300px;
+    height: 52px;
+    margin-top: 135px;
+    position: relative;
+}
+
+.Samatha{
+    width: 122px;
+    height: 24px;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;
+}
+
+.May5{
+    position: absolute;
+    width: 121px;
+    height: 24px;
+    font-family: Gilroy-Regular;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.4);
+    margin-top: 4px;
+}
+
+.bookmarks{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 56px;
+}
+
+.share{
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    margin-right: 1px;
+}
+/* ---------------------------------------------------------------------------------------------------- */
+
+.photo2{
+    max-width: 300px;
+    height: 200px;
+    background-image: url(img/img_blog/Rectangle\ 5\ \(2\).png);
+}
+
+.photo3{
+    max-width: 300px;
+    height: 200px;
+    background-image: url(img/img_blog/Rectangle\ 5\ \(3\).png);
+}
+
+@media screen and (max-width: 920px){
+   .photo2{
+    margin: 0 auto;
+   }
+
+   .slidM1{
+    height: 430px;
+   }
+
+   
+}
+@media screen and (max-width: 895px){
+    
+    .slidMore{
+        margin: 32px auto;
+        max-width: 940px;
+        height: 1040px;
+        display: flex;
+        justify-content: center;   
+        flex-wrap: wrap;
+    }
+
+    #slidM2{
+        margin-left: 20px;
+    }
+}
+
+
+.SeeAll{
+    display: flex;
+    justify-content: end;
+    max-width: 940px;
+    height: 20px;
+    margin: 0px auto;
+    margin-top: 54px;
+}
+
+#SeeAll{
+    width: 210px;
+    height: 20px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    opacity: 0.8;   
+}
+
+@media screen and (max-width: 920px){
+    #SeeAll{
+        width: 210px;
+        height: 20px;
+        font-family: Gilroy-SemiBold;
+        font-size: 16px;
+        line-height: 20px;
+        text-align: right;
+        letter-spacing: 0.04em;
+        color: #356EAD;
+        opacity: 0.8;
+        margin: 0 auto;
+    }
+
+    
+}
+
+@media screen and (max-width: 617px){
+    .slidMore{
+        margin: 32px auto;
+        max-width: 940px;
+        height: 1440px;
+        display: flex;
+        justify-content: center;   
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 595px){
+    #slidM2{
+        margin-left: 0px;
+    }
+}
+
+
+.SeeAllHrClass{
+    max-width: 940px;
+    margin: 0 auto;
+    margin-top: 24px;
+}
+
+.SeeAllHr{
+    width: 100%;
+}
+
+.ALLARTICLE{
+    display: flex;
+    justify-content: start;
+    margin: 0 auto;
+    max-width: 940px;
+    margin-top: 56px;
+}
+
+.ALLARTICLEtext{
+    max-width: 122px;
+    height: 25px;
+    font-family: 'Gilroy';
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    opacity: 0.8; 
+}
+
+@media screen and (max-width: 920px){
+    .ALLARTICLEtext{
+        max-width: 172px;
+        font-size: 28px;
+    }
+    .ALLARTICLE{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 940px;
+        margin-top: 56px;
+    }   
+}
+
+.slidMore2Box{
+    margin: 0 auto;
+    margin-top: 32px;
+    max-width: 940px;
+    height: auto;
+}
+
+.slidMore2{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    justify-content: space-around;
+    max-width: 860px;
+    max-height: 3028px;
+}
+/* -------------------------------------------------------------------------------- */
+.slidMoreM1{
+   max-width: 860px;
+   max-height: 500px;
+   margin: 0 auto;
+   display: flex;  
+   flex-wrap: wrap;
+}
+
+.slidMoreM1Photo1{
+    max-width: 300px;
+    height: 200px;
+    background-image: url(img/img_blog/Rectangle\ 5\ \(4\).png);
+}
+
+.slidMoreM1Content{
+    margin-left: 20px;
+}
+
+.slidMoreM1ContentName{
+    max-width: 540px;
+    height: 38px;
+    font-family: Galien-Bold;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 0.04em;
+    color: #1F3F68;   
+}
+
+.slidMoreM1ContentText{
+    max-width: 539px;
+    max-height: 300px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    color: rgba(0, 0, 0, 0.6);
+    margin-top: 16px;
+}
+
+.slidMoreM1ContentBottom{
+    max-width: 300px;
+    height: 52px;
+    margin-top: 14px;
+    position: relative;
+}
+
+
+@media screen and (max-width: 546px){
+    .slidMore2{
+        max-height: 2000px;
+    }
+    .slidMoreM1 {
+        max-width: 860px;
+        max-height: 500px;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .slidMoreM1Photo1{
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 546px){
+    .slidMoreM1ContentName{
+        text-align: center;
+    }
+    
+    .slidMoreM1ContentText{
+        margin-top: 38px;
+        text-align: center;
+        
+    }
+}
+
+
+@media screen and (max-width: 858px){
+    .slidMoreM1Content{
+        margin: 0 auto;
+    }
+
+    .slidMoreM1Photo1{
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 838px){
+    .slidMore2 {
+        margin: 0 auto;
+        margin-top: 32px;
+        max-width: 940px;
+        max-height: 3028px;
+    }
+
+    .slidMoreM1{
+        margin-top: 80px;
+    }
+}
+
+.slidMoreM1:first-child{
+    margin-top: 0px;
+}
+
+.slidMoreM1{
+    margin-top: 50px;
+}
+
+
+.NewOldP{
+    max-width: 940px;
+    max-height: 940px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.NewP,.OldP{
+    width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.04em;
+    color: #356EAD;
+    margin-top: 56px;    
+}
+
+.NewP{
+    display: flex;
+}
+
+.OldP{
+    display: flex;
+}
+
+.arrow_back{
+    margin-right: 16px;
+}
+
+.arrow_forward{
+    margin-left: 16px;
+}
+/* -------------------------------------------------------------------------------- */
+
+.footer{
+    max-width: 1270px;
+    height: auto;
+    background: #316099;
+    border-radius: 0px 200px 0px 0px;
+    margin-top: 96px;
+    position: relative;
+}
+
+.Intersted{
+    max-width: 317px;
+    height: 92px;
+    font-family: Gilroy-SemiBold;
+    font-size: 36px;
+    line-height: 46px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    padding-top: 91px;
+    padding-left: 213px;
+}
+
+.InterstedText{
+    max-width: 460px;
+    height: 80px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;   
+    padding-left: 213px;
+    padding-top: 32px;
+}
+
+.Let’sBTN{
+    position: absolute;
+    top: 320px;
+    right: 0px;
+    margin-right: 197px;
+    width: 220px;
+    height: 56px;    
+    background: #5A98D0;
+    border-radius: 10px;
+    border: none;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+}
+
+.footerhr{
+    max-width: 1073px;
+    margin-top: 96px;
+    opacity: 0.4;
+    border: 1px solid #FFFFFF;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+.footerContent{
+    display: flex;
+    max-width: 734px;
+    margin-left: 216px;
+}
+
+
+.Afrianska{
+    max-width: 300px;
+    max-height: auto;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-content: center;
+    margin-top: 97px;
+
+}
+
+.AfrianskaName{
+    max-width: 300px;
+    max-width: auto;
+    display: flex;
+}
+
+.img_blog_logo{
+    max-width: 48px;
+    max-height: 48px;
+}
+
+.AfrianskaText{
+    max-width: 125px;
+    height: 46px;
+    font-family: Gilroy-SemiBold;
+    font-size: 28px;
+    line-height: 46px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-left: 16px;
+    
+}
+
+.A{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;
+}
+
+.Aa{
+    max-width: 19px;
+    height: 26px;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 31px;  
+}
+
+.AaText{
+    max-width: 264px;
+    height: 48px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 31px;
+    margin-left: 16px;
+}
+
+.T{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;  
+
+}
+
+.Tt{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+}
+
+.TtText{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-left: 16px;
+}
+.E{
+    max-width: auto;
+    max-height: auto;
+    display: flex;
+    justify-content: start;
+}
+.Ee{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+}
+
+.EeText{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 24px;  
+    margin-left: 16px;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+.AboutUS{
+    max-width: 163px;
+    max-height: auto;
+    margin-left: 100px;
+}
+
+.AboutUSNameFT{
+    max-width: 94px;
+    height: 30px;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 96px; 
+}
+
+.AboutFT,.WhatFT,.ProjectFT,.HowFT{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.AboutFT{
+    margin-top: 32px;
+}
+/* <!-- &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& --> */
+
+.FollowUs{
+    max-width: 163px;
+    max-height: auto;
+    margin-left: 77px;
+}
+
+.FollowUSFT{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-SemiBold;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 96px; 
+}
+
+.Instagram,.Facebook,.LinkedIn,.Youtube{
+    max-width: auto;
+    height: auto;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    margin-top: 16px;
+}
+
+.Instagram{
+    margin-top: 32px;
+}
+
+.copycon{
+    max-width: 288px;
+    height: 26px;
+    font-family: Gilroy-Regular;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.4;    
+}
+
+@media screen and (max-width: 920px){
+    .footerContent{
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: center;
+        display: flex;
+        max-width: 734px;
+        margin: 0 auto;
+    }
+    .AboutUS{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    } 
+    .FollowUs{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    }
+    .Let’sBTN {
+        position: absolute;
+        top: 320px;
+        right: 30%;
+        margin-right: 0px;
+        width: 220px;
+        height: 56px;    
+        background: #5A98D0;
+        border-radius: 10px;
+        border: none;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+
+    .Intersted{
+        max-width: 317px;
+        height: 92px;
+        font-family: Gilroy-SemiBold;
+        font-size: 36px;
+        line-height: 46px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        padding-top: 91px;
+        padding-left: 80px;
+    }
+    
+    .InterstedText{
+        max-width: 460px;
+        max-height: auto;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.6;   
+        padding-left: 80px;
+        padding-top: 32px;
+    }
+
+    .copycon {
+        max-width: 288px;
+        height: 26px;
+        font-family: Gilroy-Regular;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        opacity: 0.4;
+        margin: 0 auto;
+        margin-top: 15PX;
+    }
+
+    .FollowUSFT{
+        max-width: auto;
+        height: auto;
+        font-family: Gilroy-SemiBold;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-top: 30px; 
+    }
+
+    .AboutUSNameFT {
+        max-width: 94px;
+        height: 30px;
+        font-family: Gilroy-SemiBold;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+        margin-top: 30px;
+    }
+
+}
+
+@media screen and (max-width: 420px){
+    .AboutUS{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    } 
+    .FollowUs{
+        max-width: 163px;
+        max-height: auto;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .Intersted {
+        padding-left: 25px;
+        font-size: 28px;
+    }
+    .InterstedText {
+        padding-left: 25px;
+        font-size: 14px;
+    }
+}
